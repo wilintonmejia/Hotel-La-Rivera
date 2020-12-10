@@ -24,9 +24,20 @@
                     <a class="dropdown-item" href="{{ url('servicios/eventos/{id}') }}">Eventos</a> 
                 </div>
             </li> 
+            <li class="nav-item dropdown"> 
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#28a745">
+                 Clientes 
+                </a> 
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                    <a class="dropdown-item" href="{{ url('clientes/visualizar') }}">Visualizar</a>
+                </div>
+            </li> 
             <li class="nav-item"> 
                 <a class="nav-link" href="{{ url('reservas') }}" style="color:#28a745">Reservas</a> 
-            </li> 
+            </li>
+            <li class="nav-item"> 
+                <a class="nav-link" href="{{ url('facturacion') }}" style="color:#28a745">Facturacion</a> 
+            </li>
             <li class="nav-item"> 
                 <a class="nav-link" href="{{ url('contáctenos') }}" style="color:#28a745">Contactos</a> 
             </li> 
