@@ -19,8 +19,8 @@ class CreateFacturaTable extends Migration
             $table->bigInteger('cliente')->unsigned();
             $table->bigInteger('formaPago')->unsigned();
             $table->date('Entrada');
-            $table->date('Salida');
-            $table->double('Total');
+            $table->date('Salida')->nullable();
+            $table->double('Total')->nullable();
             $table->foreign('Numero')
                 ->references('Numero')
                 ->on('habitacion')

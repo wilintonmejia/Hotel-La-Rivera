@@ -15,7 +15,7 @@ class CreatePrecioTable extends Migration
     {
         Schema::create('precio', function (Blueprint $table) {
             $table->id();
-            $table->string('Tipo', 10);
+            $table->string('Tipo', 20);
             $table->bigInteger('precio');
             $table->timestamps();
         });

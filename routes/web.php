@@ -6,6 +6,7 @@ use App\Http\Controllers\HabitacionesController;
 use App\Http\Controllers\ClientesController;
 use App\Http\Controllers\FacturacionController;
 use App\Http\Controllers\ReservasController;
+use App\Http\Controllers\ConsultasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,6 +46,9 @@ Route::get('reservas', [ReservasController::class, 'getReservas']);
 
 // Ruta facturacion
 Route::get('facturacion', [FacturacionController::class, 'getFactura']);
+
+//Ruta para la realización del punto 6 del Taller No. 2
+Route::get('consultas', [ConsultasController::class, 'consultas']);
 
 // Ruta contáctos
 Route::get('contáctenos', [HotelController::class, 'showContactos']);

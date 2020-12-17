@@ -39,6 +39,9 @@
                 <a class="nav-link" href="{{ url('facturacion') }}" style="color:#28a745">Facturacion</a> 
             </li>
             <li class="nav-item"> 
+                <a class="nav-link" href="{{ url('consultas') }}" style="color:#28a745">Consultas</a> 
+            </li>           
+            <li class="nav-item"> 
                 <a class="nav-link" href="{{ url('contáctenos') }}" style="color:#28a745">Contactos</a> 
             </li> 
         </ul> 
